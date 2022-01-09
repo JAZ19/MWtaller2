@@ -1,0 +1,71 @@
+body{
+   font-family: "Arial";
+}
+.contenedorMenu {
+    width:1100px; /*ancho total de la pagina*/
+    height: 125px;
+    /*border:2px solid #333333; /*encadeno los 3 atributos claves del borde en una sola linea, ahorrando codigo XD*/
+    background-color:#c3ae99;
+    font-size:18px;
+    margin:20px auto; /*10px arriba y abajo, y auto a los lados, para los navegadores nuevos es suficiente para centrar la pagina*/
+    text-align:center; /*aqui alineamos todo de nuevo a la izquierda, pero dentro del contenedor*/
+}
+.menu{
+    list-style-type:none; /*con esto quitamos las viñetas*/
+    /*margin:20; /*le quitamos el margen a la lista*/
+    /*padding:20; /*y el relleno*/
+}
+.menu li {
+
+    /*margin:50; /*le quito el margen al elemento de la lista*/
+    float:left; /*y los floto a la izquierda para eliminar el salto de linea*/
+    text-decoration:none;
+}
+.menu li a {
+    display:block; /*con esto el vinculo tendra un area rectangular, asi no sera solo el texto*/
+    background-color:white; /*algo de color*/
+    font-family: "Century Gothic";
+    color:#565656; /*mas*/
+    width:110px; /*defino el ancho del rectangulo del vinculo*/
+    padding:20px 22px 20px 22px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los ítems del menú*/
+    text-decoration:none; /*elimino el subrayado del vínculo*/
+    font-weight:bold; /*decoración*/
+    border-radius: 80px;
+    /*text-transform:uppercase; /*decorare los vinculos en mayusculas*/
+}
+.menu li a:hover {
+    background-color:#999900; /*decoración para el evento hover (mouse encima)*/
+}
+.contenedorPrincipal{
+  width:1100px; /*ancho total de la pagina*/
+  margin:20px auto;
+  text-align:center;
+}
+.titulo {
+  color: #5b2444;
+  font-size: 30px;
+}
+.subtitulo {
+  color: #2A0A22;
+  font-size: 25px;
+  font-family: "Century Gothic"
+}
+.formulario {
+  color: #1C1C1C;
+  font-size: 20px;
+  font-family: "Century Gothic"
+}
+.imgRedonda {
+    width:400px;
+    height:400px;
+    border-radius:200px;
+}
+body {
+  background: url(../img/fondo.jpg);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+.titulo rosa{
+  color:ECACA8
+  font-size:18px
+}

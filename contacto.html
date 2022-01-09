@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="css/estilo.css">
+<head>
+  <meta charset="utf-8">
+  <title>ADEA</title>
+</head>
+
+<body>
+  <div class="contenedorMenu">
+      <ul class="menu">
+        <li><img src="img/logoAdea.png" alt=""></li>
+        <br><br>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quiensomos.html">Sobre ADEA</a></li>
+        <li><a href="oferta.html">Oferta</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+<div class="contenedorPrincipal">
+  <!-- Cuerpo -->
+    <h1 class="titulo">DEJA TUS DATOS Y NOS PONDREMOS EN CONTACTO CONTIGO</h1><br>
+    <img src="img/contacto1.jpg" alt="La educación" width="400 "align="right" border="0" hspace="80"/><br><br>
+
+ <form name="DatosPersonales" action="guardar.html" method="post" class="formulario">
+      <label for="nombre">Nombre</label>
+        <input name="nombre" type="text" required>
+        <br>
+        <br>
+    <label for="teléfono">Teléfono</label>
+        <input name="teléfono" type="text" required>
+        <br>
+        <br>
+    <label for="correo">Correo electrónico</label>
+        <input name="correo" type="email" required>
+        <br>
+        <br>
+    <label for="oferta">Oferta de interés</label>
+              <select id="oferta" name="oferta" class="formulario" required>
+                <option>---</option>
+                <option value="1">Intervención psicopedagógica</option>
+                <option value="2">Preescolar o primaria</option>
+                <option value="3">Orientación familiar</option>
+              </select>
+        <br>
+        <br>
+    <laber for="comentarios">Comentarios</label>
+        <textarea name="comentarios" type="text" cols="35" rows="4" required>
+        </textarea>
+        <br>
+        <br>
+    <button onclick="submit" class="formulario">Enviar</button>
+ </form>
+</div>
+
+</tbody>
